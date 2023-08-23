@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project LabControl_ePWM1A ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'LabControl_ePWM1A.out' is up to date.
+
+**** Build Finished ****

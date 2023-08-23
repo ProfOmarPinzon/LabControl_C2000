@@ -1,0 +1,409 @@
+
+**** Build of configuration Debug for project LabControl_GPIO ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../LabGPIO.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_GPIO" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="LabGPIO.d_raw"  "../LabGPIO.c"
+Finished building: "../LabGPIO.c"
+ 
+Building file: "../DSP2833x_GlobalVariableDefs.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_GPIO" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "../DSP2833x_GlobalVariableDefs.c"
+Finished building: "../DSP2833x_GlobalVariableDefs.c"
+ 
+Building target: "LabControl_GPIO.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"LabControl_GPIO.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="LabControl_GPIO_linkInfo.xml" --rom_model -o "LabControl_GPIO.out" "./DSP2833x_GlobalVariableDefs.obj" "./LabGPIO.obj" "../28335_RAM_lnk.cmd" "../DSP2833x_Headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+Finished building target: "LabControl_GPIO.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LabControl_ePWM1AB ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_ADC_cal.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_ePWM1AB" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_ADC_cal.d_raw"  "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_ADC_cal.asm"
+Finished building: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_ADC_cal.asm"
+ 
+Building file: "../DSP2833x_EPwm.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_ePWM1AB" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_EPwm.d_raw"  "../DSP2833x_EPwm.c"
+Finished building: "../DSP2833x_EPwm.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_usDelay.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_ePWM1AB" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_usDelay.d_raw"  "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_usDelay.asm"
+Finished building: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_usDelay.asm"
+ 
+Building file: "../DSP2833x_SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_ePWM1AB" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "../DSP2833x_SysCtrl.c"
+Finished building: "../DSP2833x_SysCtrl.c"
+ 
+Building file: "../LabPWMv2.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_ePWM1AB" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="LabPWMv2.d_raw"  "../LabPWMv2.c"
+Finished building: "../LabPWMv2.c"
+ 
+Building file: "../DSP2833x_GlobalVariableDefs.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_ePWM1AB" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "../DSP2833x_GlobalVariableDefs.c"
+Finished building: "../DSP2833x_GlobalVariableDefs.c"
+ 
+Building target: "LabControl_ePWM1AB.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"LabControl_ePWM1AB.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="LabControl_ePWM1AB_linkInfo.xml" --rom_model -o "LabControl_ePWM1AB.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_EPwm.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./LabPWMv2.obj" "../28335_RAM_lnk.cmd" "../DSP2833x_Headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+Finished building target: "LabControl_ePWM1AB.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LabControl_ePWM1A ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_ADC_cal.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_ePWM1A" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_ADC_cal.d_raw"  "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_ADC_cal.asm"
+Finished building: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_ADC_cal.asm"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_usDelay.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_ePWM1A" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_usDelay.d_raw"  "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_usDelay.asm"
+Finished building: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_usDelay.asm"
+ 
+Building file: "../DSP2833x_EPwm.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_ePWM1A" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_EPwm.d_raw"  "../DSP2833x_EPwm.c"
+Finished building: "../DSP2833x_EPwm.c"
+ 
+Building file: "../DSP2833x_SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_ePWM1A" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "../DSP2833x_SysCtrl.c"
+Finished building: "../DSP2833x_SysCtrl.c"
+ 
+Building file: "../LabPWM.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_ePWM1A" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="LabPWM.d_raw"  "../LabPWM.c"
+Finished building: "../LabPWM.c"
+ 
+Building file: "../DSP2833x_GlobalVariableDefs.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_ePWM1A" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "../DSP2833x_GlobalVariableDefs.c"
+Finished building: "../DSP2833x_GlobalVariableDefs.c"
+ 
+Building target: "LabControl_ePWM1A.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"LabControl_ePWM1A.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="LabControl_ePWM1A_linkInfo.xml" --rom_model -o "LabControl_ePWM1A.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_EPwm.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./LabPWM.obj" "../28335_RAM_lnk.cmd" "../DSP2833x_Headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+Finished building target: "LabControl_ePWM1A.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug_Experimenter_Kit for project LabControl_Algoritmo ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_ADC_cal.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/libraries/math/IQmath/c28/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/libraries/math/FPUfastRTS/c28/include" --advice:performance=all --define=_DEBUG --define=LARGE_MODEL -g --diag_suppress=10063 --diag_warning=225 --issue_remarks --verbose_diagnostics --quiet --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_ADC_cal.d_raw"  "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_ADC_cal.asm"
+Finished building: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_ADC_cal.asm"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_CodeStartBranch.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/libraries/math/IQmath/c28/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/libraries/math/FPUfastRTS/c28/include" --advice:performance=all --define=_DEBUG --define=LARGE_MODEL -g --diag_suppress=10063 --diag_warning=225 --issue_remarks --verbose_diagnostics --quiet --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_CodeStartBranch.d_raw"  "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_CodeStartBranch.asm"
+Finished building: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_CodeStartBranch.asm"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_CpuTimers.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/libraries/math/IQmath/c28/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/libraries/math/FPUfastRTS/c28/include" --advice:performance=all --define=_DEBUG --define=LARGE_MODEL -g --diag_suppress=10063 --diag_warning=225 --issue_remarks --verbose_diagnostics --quiet --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_CpuTimers.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_CpuTimers.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_DefaultIsr.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/libraries/math/IQmath/c28/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/libraries/math/FPUfastRTS/c28/include" --advice:performance=all --define=_DEBUG --define=LARGE_MODEL -g --diag_suppress=10063 --diag_warning=225 --issue_remarks --verbose_diagnostics --quiet --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_DefaultIsr.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_DefaultIsr.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/source/DSP2833x_GlobalVariableDefs.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/libraries/math/IQmath/c28/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/libraries/math/FPUfastRTS/c28/include" --advice:performance=all --define=_DEBUG --define=LARGE_MODEL -g --diag_suppress=10063 --diag_warning=225 --issue_remarks --verbose_diagnostics --quiet --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/source/DSP2833x_GlobalVariableDefs.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/source/DSP2833x_GlobalVariableDefs.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_PieCtrl.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/libraries/math/IQmath/c28/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/libraries/math/FPUfastRTS/c28/include" --advice:performance=all --define=_DEBUG --define=LARGE_MODEL -g --diag_suppress=10063 --diag_warning=225 --issue_remarks --verbose_diagnostics --quiet --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_PieCtrl.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_PieCtrl.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_PieVect.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/libraries/math/IQmath/c28/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/libraries/math/FPUfastRTS/c28/include" --advice:performance=all --define=_DEBUG --define=LARGE_MODEL -g --diag_suppress=10063 --diag_warning=225 --issue_remarks --verbose_diagnostics --quiet --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_PieVect.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_PieVect.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/libraries/math/IQmath/c28/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/libraries/math/FPUfastRTS/c28/include" --advice:performance=all --define=_DEBUG --define=LARGE_MODEL -g --diag_suppress=10063 --diag_warning=225 --issue_remarks --verbose_diagnostics --quiet --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_SysCtrl.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_SysCtrl.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_usDelay.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/libraries/math/IQmath/c28/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/libraries/math/FPUfastRTS/c28/include" --advice:performance=all --define=_DEBUG --define=LARGE_MODEL -g --diag_suppress=10063 --diag_warning=225 --issue_remarks --verbose_diagnostics --quiet --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_usDelay.d_raw"  "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_usDelay.asm"
+Finished building: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_usDelay.asm"
+ 
+Building file: "../FuncionesLab.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/libraries/math/IQmath/c28/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/libraries/math/FPUfastRTS/c28/include" --advice:performance=all --define=_DEBUG --define=LARGE_MODEL -g --diag_suppress=10063 --diag_warning=225 --issue_remarks --verbose_diagnostics --quiet --abi=coffabi --preproc_with_compile --preproc_dependency="FuncionesLab.d_raw"  "../FuncionesLab.c"
+Finished building: "../FuncionesLab.c"
+ 
+Building file: "../LabControl_Algoritmo.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/libraries/math/IQmath/c28/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/libraries/math/FPUfastRTS/c28/include" --advice:performance=all --define=_DEBUG --define=LARGE_MODEL -g --diag_suppress=10063 --diag_warning=225 --issue_remarks --verbose_diagnostics --quiet --abi=coffabi --preproc_with_compile --preproc_dependency="LabControl_Algoritmo.d_raw"  "../LabControl_Algoritmo.c"
+Finished building: "../LabControl_Algoritmo.c"
+ 
+Building target: "Example_2833xLEDBlink.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --advice:performance=all --define=_DEBUG --define=LARGE_MODEL -g --diag_suppress=10063 --diag_warning=225 --issue_remarks --verbose_diagnostics --quiet --abi=coffabi -z -m"Example_2833xLEDBlink.map" --stack_size=0x200 --warn_sections -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -i"C:/Users/Laboratorio/C2000Projects/LabControl_Algoritmo" -i"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/lib" -i"C:/ti/c2000/C2000Ware_4_03_00_00/libraries/math/IQmath/c28/lib" -i"C:/ti/c2000/C2000Ware_4_03_00_00/libraries/math/FPUfastRTS/c28/lib" --priority --reread_libs --issue_remarks --verbose_diagnostics --xml_link_info="Example_2833xLEDBlink_linkInfo.xml" --entry_point=code_start --rom_model -o "Example_2833xLEDBlink.out" -lrts2800_fpu32.lib "./DSP2833x_ADC_cal.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./FuncionesLab.obj" "./LabControl_Algoritmo.obj" "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd" "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd"  -lIQmath_fpu32.lib 
+note: linking in "IQmath_fpu32_coff.lib" in place of index library
+   "IQmath_fpu32.lib"
+Finished building target: "Example_2833xLEDBlink.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LabControl_ADC ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_ADC_cal.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_ADC" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_ADC_cal.d_raw"  "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_ADC_cal.asm"
+Finished building: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_ADC_cal.asm"
+ 
+Building file: "../DSP2833x_Adc.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_ADC" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "../DSP2833x_Adc.c"
+Finished building: "../DSP2833x_Adc.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_usDelay.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_ADC" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_usDelay.d_raw"  "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_usDelay.asm"
+Finished building: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_usDelay.asm"
+ 
+Building file: "../DSP2833x_SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_ADC" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "../DSP2833x_SysCtrl.c"
+Finished building: "../DSP2833x_SysCtrl.c"
+ 
+Building file: "../LabADCv3.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_ADC" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="LabADCv3.d_raw"  "../LabADCv3.c"
+Finished building: "../LabADCv3.c"
+ 
+Building file: "../DSP2833x_GlobalVariableDefs.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_ADC" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "../DSP2833x_GlobalVariableDefs.c"
+Finished building: "../DSP2833x_GlobalVariableDefs.c"
+ 
+Building target: "LabControl_ADC.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"LabControl_ADC.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="LabControl_ADC_linkInfo.xml" --rom_model -o "LabControl_ADC.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./LabADCv3.obj" "../28335_RAM_lnk.cmd" "../DSP2833x_Headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+Finished building target: "LabControl_ADC.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LabControl_ePWM1A ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building target: "LabControl_ePWM1A.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"LabControl_ePWM1A.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd" -i"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="LabControl_ePWM1A_linkInfo.xml" --entry_point=code_start --rom_model -o "LabControl_ePWM1A.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_EPwm.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./LabPWM.obj" "../28335_RAM_lnk.cmd" "../DSP2833x_Headers_nonBIOS.cmd"  -l28335_RAM_lnk.cmd -lrts2800_fpu32.lib -lDSP2833x_Headers_nonBIOS.cmd 
+<Linking>
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 117: error #10263: BEGIN memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 117: error #10264: BEGIN memory range overlaps existing memory range BEGIN
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 118: error #10263: RAMM0 memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 118: error #10264: RAMM0 memory range overlaps existing memory range RAMM0
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 119: error #10263: RAML0 memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 119: error #10264: RAML0 memory range overlaps existing memory range RAML0
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 120: error #10263: RAML1 memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 120: error #10264: RAML1 memory range overlaps existing memory range RAML1
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 121: error #10263: RAML2 memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 121: error #10264: RAML2 memory range overlaps existing memory range RAML2
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 122: error #10263: RAML3 memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 122: error #10264: RAML3 memory range overlaps existing memory range RAML3
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 123: error #10263: ZONE7A memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 123: error #10264: ZONE7A memory range overlaps existing memory range ZONE7A
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 124: error #10263: CSM_RSVD memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 124: error #10264: CSM_RSVD memory range overlaps existing memory range CSM_RSVD
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 125: error #10263: CSM_PWL memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 125: error #10264: CSM_PWL memory range overlaps existing memory range CSM_PWL
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 126: error #10263: ADC_CAL memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 126: error #10264: ADC_CAL memory range overlaps existing memory range ADC_CAL
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 127: error #10263: RESET memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 127: error #10264: RESET memory range overlaps existing memory range RESET
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 128: error #10263: IQTABLES memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 128: error #10264: IQTABLES memory range overlaps existing memory range IQTABLES
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 129: error #10263: IQTABLES2 memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 129: error #10264: IQTABLES2 memory range overlaps existing memory range IQTABLES2
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 130: error #10263: FPUTABLES memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 130: error #10264: FPUTABLES memory range overlaps existing memory range FPUTABLES
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 131: error #10263: BOOTROM memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 131: error #10264: BOOTROM memory range overlaps existing memory range BOOTROM
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 139: error #10263: BOOT_RSVD memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 139: error #10264: BOOT_RSVD memory range overlaps existing memory range BOOT_RSVD
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 140: error #10263: RAMM1 memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 140: error #10264: RAMM1 memory range overlaps existing memory range RAMM1
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 141: error #10263: RAML4 memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 141: error #10264: RAML4 memory range overlaps existing memory range RAML4
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 142: error #10263: RAML5 memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 142: error #10264: RAML5 memory range overlaps existing memory range RAML5
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 143: error #10263: RAML6 memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 143: error #10264: RAML6 memory range overlaps existing memory range RAML6
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 144: error #10263: RAML7 memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 144: error #10264: RAML7 memory range overlaps existing memory range RAML7
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 145: error #10263: ZONE7B memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd/28335_RAM_lnk.cmd", line 145: error #10264: ZONE7B memory range overlaps existing memory range ZONE7B
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 65: error #10263: DEV_EMU memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 65: error #10264: DEV_EMU memory range overlaps existing memory range DEV_EMU
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 66: error #10263: FLASH_REGS memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 66: error #10264: FLASH_REGS memory range overlaps existing memory range FLASH_REGS
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 67: error #10263: CSM memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 67: error #10264: CSM memory range overlaps existing memory range CSM
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 69: error #10263: ADC_MIRROR memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 69: error #10264: ADC_MIRROR memory range overlaps existing memory range ADC_MIRROR
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 71: error #10263: XINTF memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 71: error #10264: XINTF memory range overlaps existing memory range XINTF
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 73: error #10263: CPU_TIMER0 memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 73: error #10264: CPU_TIMER0 memory range overlaps existing memory range CPU_TIMER0
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 74: error #10263: CPU_TIMER1 memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 74: error #10264: CPU_TIMER1 memory range overlaps existing memory range CPU_TIMER1
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 75: error #10263: CPU_TIMER2 memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 75: error #10264: CPU_TIMER2 memory range overlaps existing memory range CPU_TIMER2
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 77: error #10263: PIE_CTRL memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 77: error #10264: PIE_CTRL memory range overlaps existing memory range PIE_CTRL
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 78: error #10263: PIE_VECT memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 78: error #10264: PIE_VECT memory range overlaps existing memory range PIE_VECT
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 80: error #10263: DMA memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 80: error #10264: DMA memory range overlaps existing memory range DMA
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 82: error #10263: MCBSPA memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 82: error #10264: MCBSPA memory range overlaps existing memory range MCBSPA
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 83: error #10263: MCBSPB memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 83: error #10264: MCBSPB memory range overlaps existing memory range MCBSPB
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 85: error #10263: ECANA memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 85: error #10264: ECANA memory range overlaps existing memory range ECANA
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 86: error #10263: ECANA_LAM memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 86: error #10264: ECANA_LAM memory range overlaps existing memory range ECANA_LAM
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 87: error #10263: ECANA_MOTS memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 87: error #10264: ECANA_MOTS memory range overlaps existing memory range ECANA_MOTS
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 88: error #10263: ECANA_MOTO memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 88: error #10264: ECANA_MOTO memory range overlaps existing memory range ECANA_MOTO
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 89: error #10263: ECANA_MBOX memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 89: error #10264: ECANA_MBOX memory range overlaps existing memory range ECANA_MBOX
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 91: error #10263: ECANB memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 91: error #10264: ECANB memory range overlaps existing memory range ECANB
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 92: error #10263: ECANB_LAM memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 92: error #10264: ECANB_LAM memory range overlaps existing memory range ECANB_LAM
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 93: error #10263: ECANB_MOTS memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 93: error #10264: ECANB_MOTS memory range overlaps existing memory range ECANB_MOTS
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 94: error #10263: ECANB_MOTO memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 94: error #10264: ECANB_MOTO memory range overlaps existing memory range ECANB_MOTO
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 95: error #10263: ECANB_MBOX memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 95: error #10264: ECANB_MBOX memory range overlaps existing memory range ECANB_MBOX
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 97: error #10263: EPWM1 memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 97: error #10264: EPWM1 memory range overlaps existing memory range EPWM1
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 98: error #10263: EPWM2 memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 98: error #10264: EPWM2 memory range overlaps existing memory range EPWM2
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 99: error #10263: EPWM3 memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 99: error #10264: EPWM3 memory range overlaps existing memory range EPWM3
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 100: error #10263: EPWM4 memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 100: error #10264: EPWM4 memory range overlaps existing memory range EPWM4
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 101: error #10263: EPWM5 memory range has already been specified
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 101: error #10264: EPWM5 memory range overlaps existing memory range EPWM5
+"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd/DSP2833x_Headers_nonBIOS.cmd", line 102: error #10263: EPWM6 memory range has already been specified
+fatal error #99900: error limit reached; 100 errors detected
+ 
+>> Compilation failure
+makefile:143: recipe for target 'LabControl_ePWM1A.out' failed
+gmake[1]: *** [LabControl_ePWM1A.out] Error 1
+gmake: *** [all] Error 2
+makefile:139: recipe for target 'all' failed
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LabControl_ePWM1A ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building target: "LabControl_ePWM1A.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"LabControl_ePWM1A.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd" -i"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="LabControl_ePWM1A_linkInfo.xml" --entry_point=code_start --rom_model -o "LabControl_ePWM1A.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_EPwm.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./LabPWM.obj"  -l28335_RAM_lnk.cmd -lrts2800_fpu32.lib -lDSP2833x_Headers_nonBIOS.cmd 
+<Linking>
+ 
+ undefined  first referenced
+  symbol        in file     
+ ---------  ----------------
+ code_start                 
+ 
+error #10234-D: unresolved symbols remain
+warning #10062-D: entry-point symbol "code_start" undefined
+error #10010: errors encountered during linking; "LabControl_ePWM1A.out" not built
+ 
+>> Compilation failure
+makefile:141: recipe for target 'LabControl_ePWM1A.out' failed
+gmake[1]: *** [LabControl_ePWM1A.out] Error 1
+makefile:137: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LabControl_ePWM1A ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../DSP2833x_CodeStartBranch.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_ePWM1A" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_CodeStartBranch.d_raw"  "../DSP2833x_CodeStartBranch.asm"
+Finished building: "../DSP2833x_CodeStartBranch.asm"
+ 
+Building target: "LabControl_ePWM1A.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"LabControl_ePWM1A.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/cmd" -i"C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/cmd" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="LabControl_ePWM1A_linkInfo.xml" --entry_point=code_start --rom_model -o "LabControl_ePWM1A.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_EPwm.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./LabPWM.obj"  -l28335_RAM_lnk.cmd -lrts2800_fpu32.lib -lDSP2833x_Headers_nonBIOS.cmd 
+<Linking>
+warning #10063-D: entry-point symbol other than "_c_int00" specified:  "code_start"
+Finished building target: "LabControl_ePWM1A.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug_Experimenter_Kit for project LabControl_Algoritmo ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LabControl_ADC ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'LabControl_ADC.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LabControl_ePWM1A ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'LabControl_ePWM1A.out' is up to date.
+
+**** Build Finished ****

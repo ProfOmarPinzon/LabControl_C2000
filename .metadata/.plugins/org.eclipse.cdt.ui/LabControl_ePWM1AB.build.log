@@ -1,0 +1,43 @@
+
+**** Build of configuration Debug for project LabControl_ePWM1AB ****
+
+"C:\\ti\\ccs1230\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_ADC_cal.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_ePWM1AB" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_ADC_cal.d_raw"  "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_ADC_cal.asm"
+Finished building: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_ADC_cal.asm"
+ 
+Building file: "../DSP2833x_EPwm.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_ePWM1AB" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_EPwm.d_raw"  "../DSP2833x_EPwm.c"
+Finished building: "../DSP2833x_EPwm.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_usDelay.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_ePWM1AB" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_usDelay.d_raw"  "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_usDelay.asm"
+Finished building: "C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/source/DSP2833x_usDelay.asm"
+ 
+Building file: "../DSP2833x_SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_ePWM1AB" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "../DSP2833x_SysCtrl.c"
+Finished building: "../DSP2833x_SysCtrl.c"
+ 
+Building file: "../LabPWMv2.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_ePWM1AB" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="LabPWMv2.d_raw"  "../LabPWMv2.c"
+Finished building: "../LabPWMv2.c"
+ 
+Building file: "../DSP2833x_GlobalVariableDefs.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Laboratorio/C2000Projects/LabControl_ePWM1AB" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_03_00_00/device_support/f2833x/common/include" --include_path="C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "../DSP2833x_GlobalVariableDefs.c"
+Finished building: "../DSP2833x_GlobalVariableDefs.c"
+ 
+Building target: "LabControl_ePWM1AB.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"LabControl_ePWM1AB.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="LabControl_ePWM1AB_linkInfo.xml" --rom_model -o "LabControl_ePWM1AB.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_EPwm.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./LabPWMv2.obj" "../28335_RAM_lnk.cmd" "../DSP2833x_Headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+Finished building target: "LabControl_ePWM1AB.out"
+ 
+
+**** Build Finished ****
